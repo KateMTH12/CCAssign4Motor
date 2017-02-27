@@ -10,6 +10,7 @@ int lowValue = 0;
 int motorInput;
 
 void setup() {
+  Serial.begin(9600);
   pinMode(motor, OUTPUT);
   pinMode(LED, OUTPUT);
   pinMode(pitz, OUTPUT);
